@@ -36,4 +36,6 @@ h2{
 	display:flex;
 	justify-content:center;
 }
-
+.player_one{
+  text-decoration-line: none;
+}
