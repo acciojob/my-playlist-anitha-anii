@@ -4,7 +4,7 @@
 body {
   background-color: #cccccc;
 }
-h1{
+h1, h2{
 	
 	display:flex;
 	justify-content:center;
@@ -32,11 +32,7 @@ h1{
 	border:1px solid black;
 
 }
-h2{
-		
-	display:flex;
-	justify-content:center;
-}
+
 .player_one{
   text-decoration-line: none;
 }
