@@ -1,5 +1,6 @@
 /*  your css code here. If applicable */
 
+
 body {
   background-color: #cccccc;
 }
@@ -9,17 +10,30 @@ h1{
 	justify-content:center;
 }
 .player_one{
+	margin:0;
+	padding:0;
 	background-color:white;
-	padding:10px;
+
 	border:1px solid black;
+		display:flex;
+
 }
 .player_two{
 	
-	width:20rem;
-	height:20rem;
-	background-color:white;
-	border:1px solid black;
+	margin:0 auto;
 	display:flex;
 	justify-content:center;
-	   
+	 align-items:center; 
+	flex-direction:column;
+		width:22rem;
+	height:25rem;
+	background-color:white;
+	border:1px solid black;
+
 }
+h2{
+		
+	display:flex;
+	justify-content:center;
+}
+
